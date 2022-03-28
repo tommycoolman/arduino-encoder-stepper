@@ -37,11 +37,11 @@ void loop() {
         
         if (digitalRead(ROT_DATA) != current_clock) { 
             counter--;
-            direction ="CCW";
+            direction = "CCW";
         }
         else {
             counter++;
-            direction =" CW";
+            direction = " CW";
         }
         Serial.print(direction);
         Serial.print(" POS: ");
