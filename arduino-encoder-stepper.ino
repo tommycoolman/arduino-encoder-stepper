@@ -7,7 +7,7 @@
 int counter = 0; 
 int current_clock;
 int last_clock; 
-String direction ="";
+String direction = "";
 
 // Stepper Variables
 int stepCount = 200;
