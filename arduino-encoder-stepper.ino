@@ -17,8 +17,8 @@ unsigned int stepTimeLast;
 int stepDelay = 5000;
 
 void setup() { 
-    pinMode (ROT_CLOCK,INPUT);
-    pinMode (ROT_DATA,INPUT);
+    pinMode (ROT_CLOCK, INPUT);
+    pinMode (ROT_DATA, INPUT);
     pinMode(PUL_PIN, OUTPUT);
     pinMode(DIR_PIN, OUTPUT);
  
